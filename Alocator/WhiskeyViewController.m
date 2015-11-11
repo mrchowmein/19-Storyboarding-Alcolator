@@ -45,9 +45,8 @@
     } else {
         whiskeyText = NSLocalizedString(@"shots", @"plural of shot");
     }
-    NSString *resultText = [NSString stringWithFormat:NSLocalizedString(@"%.1f %@", nil), numberOfWhiskeyGlassesForEquivalentAlcoholAmount, whiskeyText];
-   self.navigationItem.title  = resultText;
-
+    int resultText = numberOfWhiskeyGlassesForEquivalentAlcoholAmount;
+    [self.tabBarItem setBadgeValue:[NSString stringWithFormat:@"%d", (int) resultText]];
 
 }
 

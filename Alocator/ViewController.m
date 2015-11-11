@@ -61,9 +61,9 @@
         wineText = NSLocalizedString(@"glasses", @"plural of glass");
     }
     // generate the result text, and display it on the label
-    NSString *resultText = [NSString stringWithFormat:NSLocalizedString(@" %.1f %@", nil), numberOfWineGlassesForEquivalentAlcoholAmount, wineText];
-    self.navigationItem.title  = resultText;
-    [self.tabBarItem setBadgeValue:[NSString stringWithFormat:@"%d", (int) sender.value]];
+    
+    int resultText = numberOfWineGlassesForEquivalentAlcoholAmount;
+    [self.tabBarItem setBadgeValue:[NSString stringWithFormat:@"%d", (int) resultText]];
    
 }
 
