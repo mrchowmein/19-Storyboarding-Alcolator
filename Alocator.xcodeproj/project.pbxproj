@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED06906C1BF199DF00684DDE /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED06906B1BF199DF00684DDE /* MainMenuViewController.m */; };
 		ED6FC74B1BEDA83E0063E497 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6FC74A1BEDA83E0063E497 /* WhiskeyViewController.m */; };
 		EDCA4BC41BEB04980094B177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA4BC31BEB04980094B177 /* main.m */; };
 		EDCA4BC71BEB04980094B177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA4BC61BEB04980094B177 /* AppDelegate.m */; };
@@ -29,8 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ED06906A1BF199DF00684DDE /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
-		ED06906B1BF199DF00684DDE /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		ED6FC7491BEDA82A0063E497 /* WhiskeyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
 		ED6FC74A1BEDA83E0063E497 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 		EDCA4BBE1BEB04980094B177 /* Alocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,8 +93,6 @@
 				EDCA4BD01BEB04980094B177 /* LaunchScreen.xib */,
 				ED6FC74A1BEDA83E0063E497 /* WhiskeyViewController.m */,
 				ED6FC7491BEDA82A0063E497 /* WhiskeyViewController.h */,
-				ED06906A1BF199DF00684DDE /* MainMenuViewController.h */,
-				ED06906B1BF199DF00684DDE /* MainMenuViewController.m */,
 				EDCA4BC11BEB04980094B177 /* Supporting Files */,
 			);
 			path = Alocator;
@@ -233,7 +228,6 @@
 				ED6FC74B1BEDA83E0063E497 /* WhiskeyViewController.m in Sources */,
 				EDCA4BC71BEB04980094B177 /* AppDelegate.m in Sources */,
 				EDCA4BC41BEB04980094B177 /* main.m in Sources */,
-				ED06906C1BF199DF00684DDE /* MainMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
