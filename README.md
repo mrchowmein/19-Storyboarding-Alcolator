@@ -1,1 +1,3 @@
-# 19-Storyboarding-Alcolator
+#Alcolator
+
+Alcohol comparison app written in Ojbective-C
