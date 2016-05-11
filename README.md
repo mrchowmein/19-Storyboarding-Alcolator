@@ -1,3 +1,3 @@
 #Alcolator
 
-Alcohol comparison app written in Ojbective-C
+Alcohol calculator app written in Ojbective-C
